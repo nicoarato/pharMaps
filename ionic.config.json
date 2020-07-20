@@ -1,5 +1,7 @@
 {
   "name": "GeoMaps",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

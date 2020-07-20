@@ -1,12 +1,91 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment.prod';
+
+
+import * as Mapboxgl from 'mapbox-gl';
+import { FarmaciasService } from '../services/farmacias.service';
+import { Farmacia } from '../interfaces/farmacia.interface';
 
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
-export class Tab2Page {
+export class Tab2Page implements OnInit {
 
-  constructor() {}
+  mapa: any;
+  LngLat: Mapboxgl.LngLat;
+  farmacias: Farmacia[] = [];
+  visibles = false;
+  constructor( private farmaciaService: FarmaciasService ) {}
+
+  ngOnInit() {
+    // inicializa el mapa
+    (Mapboxgl as any).accessToken = environment.mapboxKey;
+    this.mapa = new Mapboxgl.Map({
+    container: 'mapamapbox', // container id
+    style: 'mapbox://styles/mapbox/light-v10',
+    center: [-60.707367, -31.6251114], // starting position lng, lat
+    zoom: 13 // starting zoom
+    });
+
+    this.mapa.addControl(new Mapboxgl.NavigationControl());
+    this.mapa.addControl(new Mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true
+    }));
+
+
+    setTimeout(() => this.mapa.resize(), 0);
+
+    this.cargarFarmacias();
+
+
+
+  }
+
+
+
+  // carga el pedido por http
+  cargarFarmacias(event?) {
+    this.farmaciaService.getFarmacias()
+    .subscribe(res => {
+      if (event) {
+        event.target.complete();
+      }
+      this.farmacias = res;
+      if (this.farmacias.length > 0) {
+        console.log('carga exitosa -> filas: ' , this.farmacias.length);
+        return true;
+        } else {
+          console.log('problemas para cargar farmacias');
+          return false;
+        }
+      });
+    }
+
+    // muestra todas las farmacias cargadas
+    mostrarFarmacias() {
+      if (!this.visibles){
+        this.visibles = true;
+        const farms: Farmacia[] = this.farmacias;
+        farms.forEach(farmacia => {
+          this.cargarFarmacia(farmacia.coords[1], farmacia.coords[0]);
+        });
+      }
+    }
+
+
+    // carga una farmacia en el mapa
+    cargarFarmacia(lng: number, lat: number) {
+      const marker = new Mapboxgl.Marker({
+        color: '#42d77d',
+      })
+      .setLngLat([lng, lat])
+      .addTo(this.mapa);
+    }
+
 
 }

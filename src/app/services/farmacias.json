@@ -1,0 +1,715 @@
+  {
+      "farmacias": [{
+              "nombre": "Farmacia Abregú",
+              "telefono": "0342 - 4531300",
+              "direccion": "Av. Freyre 3029",
+              "coords": [-31.6384256, -60.71652]
+          },
+          {
+              "nombre": "Farmacia Acosta",
+              "telefono": "0342 - 4556677",
+              "direccion": "Suipacha 2506",
+              "coords": [-31.6401491, -60.7062142]
+          },
+          {
+              "nombre": "Farmacia Agotegaray",
+              "telefono": "0342 - 4552838",
+              "direccion": "Av. Freyre 3315",
+              "coords": [-31.63505, -60.7178851]
+          },
+          {
+              "nombre": "Farmacia Alejandro Senn",
+              "telefono": "0342 - 4529302",
+              "direccion": "4 de enero 2599",
+              "coords": [-31.6444335, -60.7116821]
+          },
+          {
+              "nombre": "Farmacia Amherdt",
+              "telefono": "0342 - 4524846",
+              "direccion": "Saavedra 2499",
+              "coords": [-31.6447084, -60.7179016]
+          },
+          {
+              "nombre": "Farmacia Argenti",
+              "telefono": "0342 - 4592943",
+              "direccion": "San Jerónimo 1746",
+              "coords": [-31.6551016, -60.710974]
+          },
+          {
+              "nombre": "Farmacia Armando",
+              "telefono": "0342 - 4520603",
+              "direccion": "25 de Mayo 3441",
+              "coords": [-31.636445, -60.7050287]
+          },
+          {
+              "nombre": "Farmacia Arrimada",
+              "telefono": "0342 - 4561397",
+              "direccion": "Marcial Candioti 3298",
+              "coords": [-31.6392554, -60.6981707]
+          },
+          {
+              "nombre": "Farmacia Asinari",
+              "telefono": "0342 - 4530042",
+              "direccion": "Crespo 2808",
+              "coords": [-31.640577, -60.7098357]
+          },
+          {
+              "nombre": "Farmacia Azanza",
+              "telefono": "0342 - 4811118 ",
+              "direccion": "San Martín 2983",
+              "coords": [-31.6412358, -60.7049432]
+          },
+          {
+              "nombre": "Farmacia Banchio",
+              "telefono": "0342 - 4522268",
+              "direccion": "Irigoyen Freyre 2200",
+              "coords": [-31.6442003, -60.703282]
+          },
+          {
+              "nombre": "Farmacia Barrientos",
+              "telefono": "0342 - 4599601",
+              "direccion": "9 de Julio 2198",
+              "coords": [-31.6497064, -60.7122657]
+          },
+          {
+              "nombre": "Farmacia Belgrano",
+              "telefono": "0342 - 4561118",
+              "direccion": "Rivadavia 3237",
+              "coords": [-31.6389971, -60.7044152]
+          },
+          {
+              "nombre": "Farmacia Bergesio",
+              "telefono": "0342 - 4523002",
+              "direccion": "1 º de Mayo 2699",
+              "coords": [31.6438974, -60.7121417]
+          },
+          {
+              "nombre": "Farmacia Berrón",
+              "telefono": "0342 - 4894530",
+              "direccion": "Pedro Goyena 3221",
+              "coords": [-31.6157714, -60.7084457]
+          }, {
+              "nombre": "Farmacia Bertolín",
+              "telefono": "0342 - 4580047",
+              "direccion": "Urquiza 1067",
+              "coords": [-31.6616302, -60.720251]
+          }, {
+              "nombre": "Farmacia Bolognesi",
+              "telefono": "0342 - 4887805",
+              "direccion": "Facundo Zuviría 5079",
+              "coords": [-31.6197242, -60.7077941]
+          }, {
+              "nombre": "Farmacia Bonazzola",
+              "telefono": "0342 - 4529098",
+              "direccion": ".Freyre 2298",
+              "coords": [-31.6463854, -60.7211047]
+          }, {
+              "nombre": "Farmacia Bonazzola Estefanía",
+              "telefono": "0342 - 4526519",
+              "direccion": ".A.del Valle 5118",
+              "coords": [-31.6207616, -60.7008477]
+          }, {
+              "nombre": "Farmacia Bordignon",
+              "telefono": "0342 - 4527618",
+              "direccion": "Suipacha 2310",
+              "coords": [-31.6406994, -60.7037947]
+          }, {
+              "nombre": "Farmacia Bosch",
+              "telefono": "0342 - 4569919/ 454",
+              "direccion": "Santiago del Estero 2764",
+              "coords": [-31.6372824, -60.7082957]
+          }, {
+              "nombre": "Farmacia Bourdin",
+              "telefono": "0342 - 4528066",
+              "direccion": "Alberdi 3500",
+              "coords": [-31.6378352, -60.6944338]
+          }, {
+              "nombre": "Farmacia Braicovich",
+              "telefono": "0342 - 4563029",
+              "direccion": ".López y Planes 4499",
+              "coords": [-31.6237464, -60.7159757]
+          }, {
+              "nombre": "Farmacia Brambilla",
+              "telefono": "0342 - 4894243/ 4894287",
+              "direccion": "Estanislao Zeballos 3731",
+              "coords": [-31.602384, -60.7114112]
+          }, {
+              "nombre": "Farmacia Bruno",
+              "telefono": "0342 - 4602204",
+              "direccion": ".General Paz 5550",
+              "coords": [-31.6195138, -60.6873763]
+          }, {
+              "nombre": "Farmacia Camilatto",
+              "telefono": "0342 - 4603413",
+              "direccion": ".Zeballos 2702",
+              "coords": [-31.6050684, -60.6980917]
+          }, {
+              "nombre": "Farmacia Camusso",
+              "telefono": "0342 - 4594678",
+              "direccion": "4 de Enero 1594",
+              "coords": [-31.6562864, -60.7170407]
+          }, {
+              "nombre": "Farmacia Caporizzo",
+              "telefono": "0342 - 4122564",
+              "direccion": ".A.del Valle 8908",
+              "coords": [-31.5862293, -60.6908696]
+          }, {
+              "nombre": "Farmacia Capra",
+              "telefono": "0342 - 4597877",
+              "direccion": "4 de Enero 1301",
+              "coords": [-31.6592254, -60.7181287]
+          }, {
+              "nombre": "Farmacia Caraballo",
+              "telefono": "0342 - 4880356",
+              "direccion": "Diagonal Goyena 3460",
+              "coords": [-31.6155964, -60.7114997]
+          }, {
+              "nombre": "Farmacia Cardoso",
+              "telefono": "0342 - 4537137/ 452- 6344 ",
+              "direccion": ".Freyre 2638",
+              "coords": [-31.6426844, -60.7196537]
+          }, {
+              "nombre": "Farmacia Castro Karina",
+              "telefono": "155 944727 ",
+              "direccion": "Berutti 6561 ",
+              "coords": [-31.5832352, -60.7368357]
+          }, {
+              "nombre": "Farmacia Cattaino",
+              "telefono": "0342 - 4526617",
+              "direccion": "9 de Julio 5198",
+              "coords": [-31.6196203, -60.7034387]
+          }, {
+              "nombre": "Farmacia Chelini",
+              "telefono": "0342 - 4530348",
+              "direccion": ".Facundo Zuviría 4679",
+              "coords": [-31.6237487, -60.7076403]
+          }, {
+              "nombre": "Farmacia Chemes",
+              "telefono": "0342 - 4597575",
+              "direccion": "Urquiza 2179",
+              "coords": [-31.6492786, -60.7164067]
+          }, {
+              "nombre": "Farmacia Clavé",
+              "telefono": "0342 - 4539694",
+              "direccion": ".Gral.Paz 4369",
+              "coords": [-31.6295944, -60.6949077]
+          }, {
+              "nombre": "Farmacia Colucci",
+              "telefono": "0342 - 4599418",
+              "direccion": ".Freyre 1908",
+              "coords": [-31.6516216, -60.7221553]
+          }, {
+              "nombre": "Farmacia Coniglio",
+              "telefono": "0342 - 4893327",
+              "direccion": ".Facundo Zuviría 5918",
+              "coords": [-31.6117738, -60.7068067]
+          }, {
+              "nombre": "Farmacia Costa",
+              "telefono": "0342 - 4895215",
+              "direccion": ".Blas Parera 5671",
+              "coords": [-31.611178, -60.7187727]
+          }, {
+              "nombre": "Farmacia Costa Samita",
+              "telefono": "0342 - 4602586",
+              "direccion": ".Aristóbulo del Valle 6378",
+              "coords": [-31.6097584, -60.6961757]
+          }, {
+              "nombre": "Farmacia Curtis",
+              "telefono": "0342 - 4598218",
+              "direccion": "Entre Ríos 3288",
+              "coords": [-31.6584086, -60.72169]
+          }, {
+              "nombre": "Farmacia Damiani",
+              "telefono": "0342 - 4565287",
+              "direccion": "Urquiza 3180",
+              "coords": [-31.6377815, -60.7129126]
+          }, {
+              "nombre": "Farmacia Daniel Lagger",
+              "telefono": "0342 - 4895994",
+              "direccion": ".Facundo Zuviría 6536",
+              "coords": [-31.6061387, -60.7053932]
+          }, {
+              "nombre": "Farmacia Donadío",
+              "telefono": "0342 - 4606020/ 4604281",
+              "direccion": "Javier de la Rosa 322",
+              "coords": [-31.6043483, -60.6687371]
+          }, {
+              "nombre": "Farmacia El Inca",
+              "telefono": "0342 4521747 /4535657 ",
+              "direccion": "San Martín 2255",
+              "coords": [-31.6496008, -60.7099223]
+          }, {
+              "nombre": "Farmacia Escudero",
+              "telefono": "0342 - 4607386",
+              "direccion": ".Galicia 1881",
+              "coords": [-31.6067404, -60.6862991]
+          }, {
+              "nombre": "Farmacia Esterkin",
+              "telefono": "0342 - 4597766",
+              "direccion": "San Jerónimo 1995",
+              "coords": [-31.6523438, -60.7119746]
+          }, {
+              "nombre": "Farmacia Facino",
+              "telefono": "0342 - 4533373",
+              "direccion": "Diagonal España 3176",
+              "coords": [-31.6399543, -60.7023413]
+          }, {
+              "nombre": "Farmacia Fanessi",
+              "telefono": "0342 - 4539000",
+              "direccion": "1 º de Mayo 2899",
+              "coords": [-31.6416274, -60.7114906]
+          }, {
+              "nombre": "Farmacia Ferro",
+              "telefono": "0342 - 4555962",
+              "direccion": "Francia 2998",
+              "coords": [-31.6396114, -60.7128287]
+          }, {
+              "nombre": "Farmacia Figueroa Sobrero",
+              "telefono": "0342 - 4601179",
+              "direccion": ".Gral.Paz 7471",
+              "coords": [-31.6033824, -60.6772227]
+          }, {
+              "nombre": "Farmacia Finelli",
+              "telefono": "0342 - 4600104",
+              "direccion": "Las Heras 7304",
+              "coords": [-31.602186, -60.6873457]
+          }, {
+              "nombre": "Farmacia Fucksmann",
+              "telefono": "0342 - 4523165",
+              "direccion": "Saavedra 3081 / 105",
+              "coords": [-31.6384007, -60.7137671]
+          }, {
+              "nombre": "Farmacia Gabriel Jauregui",
+              "telefono": "0342 - 4604556",
+              "direccion": "Echagüe 7254",
+              "coords": [-31.6063544, -60.6727017]
+          }, {
+              "nombre": "Farmacia García",
+              "telefono": "0342 - 4550724",
+              "direccion": "Rivadavia 3193",
+              "coords": [-31.6395364, -60.7044657]
+          }, {
+              "nombre": "Farmacia Germán López",
+              "telefono": "0342 - 4528048",
+              "direccion": ".Gral.Paz 5201",
+              "coords": [-31.6224259, -60.6875681]
+          }, {
+              "nombre": "Farmacia Gimenez",
+              "telefono": "0342 - 4526256",
+              "direccion": "Urquiza 2332",
+              "coords": [-31.6470859, -60.7155932]
+          }, {
+              "nombre": "Farmacia Giulioni",
+              "telefono": "0342 - 4889970",
+              "direccion": "Gorostiaga 3038",
+              "coords": [-31.6105198, -60.7042948]
+          }, {
+              "nombre": "Farmacia Gómez",
+              "telefono": "0342 - 4843684",
+              "direccion": ".Vera Peñaloza 6839",
+              "coords": [-31.6018967, -60.7117978]
+          }, {
+              "nombre": "Farmacia Gottero",
+              "telefono": "0342 - 4530644",
+              "direccion": "San Martín 2699",
+              "coords": [-31.6463553, -60.7144091]
+          }, {
+              "nombre": "Farmacia Hernán Lagger",
+              "telefono": "0342 - 4891807",
+              "direccion": ".Blas Parera 7001",
+              "coords": [-31.5974257, -60.7232504]
+          }, {
+              "nombre": "Farmacia Ignacio Azanza",
+              "telefono": "0342 - 4526526",
+              "direccion": "López y Planes 3901",
+              "coords": [-31.6292444, -60.7162627]
+          }, {
+              "nombre": "Farmacia Imhof",
+              "telefono": "0342 - 4566137",
+              "direccion": "Marcial Candioti 2796",
+              "coords": [-31.6434364, -60.6972864]
+          }, {
+              "nombre": "Farmacia Imoberdorf",
+              "telefono": "0342 - 4884801",
+              "direccion": "Fray Cayetano Rodríguez 3889",
+              "coords": [-31.6184434, -60.7183707]
+          }, {
+              "nombre": "Farmacia Imvinkelried",
+              "telefono": "0342 - 4566576",
+              "direccion": "Lavalle 4201",
+              "coords": [-31.631834, -60.688238]
+          }, {
+              "nombre": "Farmacia Judith Acevedo",
+              "telefono": "0342 - 4698431",
+              "direccion": ".Aristóbulo del Valle 9284",
+              "coords": [-31.5820092, -60.6896963]
+          }, {
+              "nombre": "Farmacia Junges",
+              "telefono": "0342 - 4561203",
+              "direccion": "Güemes 3701",
+              "coords": [-31.6366599, -60.6885067]
+          }, {
+              "nombre": "Farmacia Labath",
+              "telefono": "0342 - 4555146",
+              "direccion": "Santiago del Estero 3142 - Local 5",
+              "coords": [-31.6362035, -60.7132467]
+          }, {
+              "nombre": "Farmacia Lagger Zurbriggen",
+              "telefono": "0342 - 4603331",
+              "direccion": ".del Carril esq.Las Heras",
+              "coords": [-31.6192996, -60.6928751]
+          }, {
+              "nombre": "Farmacia Lauxmann",
+              "telefono": "0342 - 4599610",
+              "direccion": ".Zaballa 1417",
+              "coords": [-31.6566967, -60.7256087]
+          }, {
+              "nombre": "Farmacia Leiva",
+              "telefono": "0342 - 4537968",
+              "direccion": "25 de Mayo esq.Rioja",
+              "coords": [-31.6458375, -60.7056327]
+          }, {
+              "nombre": "Farmacia Lencinas",
+              "telefono": "0342 - 4811613",
+              "direccion": "Balcarce 2384",
+              "coords": [-31.6372899, -60.7012717]
+          }, {
+              "nombre": "Farmacia Liliana Matínez",
+              "telefono": "0342 - 4606780",
+              "direccion": "Belgrano 6503",
+              "coords": [-31.6091317, -60.6906078]
+          }, {
+              "nombre": "Farmacia Long",
+              "telefono": "0342 - 4552457",
+              "direccion": ".A.del Valle 4026",
+              "coords": [-31.630909, -60.7009915]
+          }, {
+              "nombre": "Farmacia López",
+              "telefono": "0342 - 4534829",
+              "direccion": ".López y Planes 4267",
+              "coords": [-31.6257144, -60.7161097]
+          }, {
+              "nombre": "Farmacia Lucia Banchio",
+              "telefono": "0342 - 4603500",
+              "direccion": ".Gral Paz 7165",
+              "coords": [-31.6062544, -60.6785257]
+          }, {
+              "nombre": "Farmacia Mai",
+              "telefono": "0342 - 4602224",
+              "direccion": ".A.del Valle 7302",
+              "coords": [-31.6011701, -60.6918645]
+          }, {
+              "nombre": "Farmacia Mansilla",
+              "telefono": "0342 - 4598798",
+              "direccion": "9 de Julio 1181",
+              "coords": [-31.6611625, -60.7159375]
+          }, {
+              "nombre": "Farmacia Marcelo Galizzi",
+              "telefono": "0342 - 4840578",
+              "direccion": "Blas Parera 8894",
+              "coords": [-31.5769178, -60.7278757]
+          }, {
+              "nombre": "Farmacia María Selva",
+              "telefono": "0342 - 4847455",
+              "direccion": ".A.del Valle 6600",
+              "coords": [-31.607611, -60.6933152]
+          }, {
+              "nombre": "Farmacia Mario Martínez",
+              "telefono": "0342 - 4531597",
+              "direccion": ".A.Del Valle 4499",
+              "coords": [-31.6265914, -60.7026256]
+          }, {
+              "nombre": "Farmacia Martínez",
+              "telefono": "0342 - 4606375",
+              "direccion": ".Galicia 1519",
+              "coords": [-31.6074159, -60.6825576]
+          }, {
+              "nombre": "Farmacia Martínez Juan José",
+              "telefono": "0342 - 4599949",
+              "direccion": ".Urquiza 1859",
+              "coords": [-31.6529894, -60.7175677]
+          }, {
+              "nombre": "Farmacia Mazzali",
+              "telefono": "0342 - 4581286",
+              "direccion": "Juan de Garay 2915",
+              "coords": [-31.6518802, -60.7146296]
+          }, {
+              "nombre": "Farmacia Menapace",
+              "telefono": "0342 - 4890660",
+              "direccion": "Blas Parera 7831",
+              "coords": [-31.5894078, -60.7249654]
+          }, {
+              "nombre": "Farmacia Méndez",
+              "telefono": "0342 - 4531945",
+              "direccion": "Güemes 4356",
+              "coords": [-31.6307737, -60.688873]
+          }, {
+              "nombre": "Farmacia Mercado Central",
+              "telefono": "0342 - 4597200",
+              "direccion": "San Jerónimo 2179",
+              "coords": [-31.650191, -60.7113709]
+          }, {
+              "nombre": "Farmacia Mónica Wagner",
+              "telefono": "0342 - 4522242",
+              "direccion": "Marcial Candioti 3899",
+              "coords": [-31.6335941, -60.6944039]
+          }, {
+              "nombre": "Farmacia Montes",
+              "telefono": "0342 - 4605026",
+              "direccion": ".Gral.Paz 6765",
+              "coords": [-31.6090292, -60.6775765]
+          }, {
+              "nombre": "Farmacia Morales",
+              "telefono": "0342 - 4696396",
+              "direccion": ".A.del Valle 5827",
+              "coords": [-31.6145759, -60.6990837]
+          }, {
+              "nombre": "Farmacia Morante",
+              "telefono": "0342 - 4511485",
+              "direccion": ".El Pozo.M .8.Vda.43",
+              "coords": [-31.6374881, -60.6594673]
+          }, {
+              "nombre": "Farmacia Naito",
+              "telefono": "342 - 4563842",
+              "direccion": "Mendoza 4098",
+              "coords": [-31.6442434, -60.7266374]
+          }, {
+              "nombre": "Farmacia Nebiolo",
+              "telefono": "0342 - 4609883",
+              "direccion": ".A.del Valle 7781",
+              "coords": [-31.5966274, -60.6942422]
+          }, {
+              "nombre": "Farmacia Ortega",
+              "telefono": "0342 - 4842593",
+              "direccion": "Blas Parera 8374",
+              "coords": [-31.5837333, -60.7261285]
+          }, {
+              "nombre": "Farmacia Ortiz de Zárate",
+              "telefono": "0342 - 4599865",
+              "direccion": ".J.J.Paso 3299",
+              "coords": [-31.6620468, -60.7228437]
+          }, {
+              "nombre": "Farmacia Pacce",
+              "telefono": "0342 - 4558517",
+              "direccion": ".A.del Valle 4900",
+              "coords": [-31.622797, -60.6992363]
+          }, {
+              "nombre": "Farmacia Palomino",
+              "telefono": "0342 - 4842850",
+              "direccion": "Facundo Zuviria 6833",
+              "coords": [-31.6031591, -60.7024014]
+          }, {
+              "nombre": "Farmacia Pardo",
+              "telefono": "0342 - 4566267",
+              "direccion": "9 de Julio 3443",
+              "coords": [31.6356958, -60.7084367]
+          },
+          {
+              "nombre": "Farmacia Pasteur",
+              "telefono": "0342 - 4520608",
+              "direccion": "Marcial Candioti 3499",
+              "coords": [-31.6373133, -60.6977125]
+          }, {
+              "nombre": "Farmacia Pedro A.Kornijuk",
+              "telefono": "0342 - 4882156",
+              "direccion": ".Fdo.Zuviría 5323",
+              "coords": [-31.6172679, -60.7077904]
+          }, {
+              "nombre": "Farmacia Peiro",
+              "telefono": "0342 - 4890670",
+              "direccion": ".Facundo Zuviría 6253",
+              "coords": [-31.60849, -60.706552]
+          }, {
+              "nombre": "Farmacia Pellegrini",
+              "telefono": "0342 - 4521233",
+              "direccion": ".Pellegrini 3465",
+              "coords": [-31.6332594, -60.7144332]
+          }, {
+              "nombre": "Farmacia Pescetti",
+              "telefono": "0342 - 4604447",
+              "direccion": "Padre Genesio 1901",
+              "coords": [-31.6017846, -60.687397]
+          }, {
+              "nombre": "Farmacia Pescetti Maximiliano",
+              "telefono": "0342 - 4522928",
+              "direccion": "Mendoza 2676",
+              "coords": [-31.648809, -60.710498]
+          }, {
+              "nombre": "Farmacia Plank",
+              "telefono": "0342 - 4121491",
+              "direccion": ".Gral Paz 4921",
+              "coords": [-31.6246878, -60.6914253]
+          }, {
+              "nombre": "Farmacia Queglas",
+              "telefono": "0342 - 4897439",
+              "direccion": "12 de Infantería 4400 - Las Flores II - M 8 - Dto.379",
+              "coords": [-31.5929381, -60.7162526]
+          }, {
+              "nombre": "Farmacia Ranzuglia",
+              "telefono": "0342 - 4883421",
+              "direccion": ".Blas Parera 9278",
+              "coords": [-31.5750544, -60.7304521]
+          }, {
+              "nombre": "Farmacia Rita Martínez",
+              "telefono": "0342 - 4694874",
+              "direccion": ".del Valle 10479",
+              "coords": [-31.5705245, -60.6899519]
+          }, {
+              "nombre": "Farmacia Rojas",
+              "telefono": "0342 - 4892747",
+              "direccion": "Blas Parera 7202",
+              "coords": [-31.5952444, -60.7251797]
+          }, {
+              "nombre": "Farmacia Rojas Sotelo",
+              "telefono": "0342 - 4607603",
+              "direccion": "Alvear 6303",
+              "coords": [-31.6114437, -60.6891276]
+          }, {
+              "nombre": "Farmacia Sabio",
+              "telefono": "0342 - 4608172",
+              "direccion": "Ángel Cassanello 898",
+              "coords": [-31.6130238, -60.6790217]
+          }, {
+              "nombre": "Farmacia Salvatierra",
+              "telefono": "0342 - 4598352",
+              "direccion": ".Gral.López 3272",
+              "coords": [-31.6555532, -60.7183857]
+          }, {
+              "nombre": "Farmacia San Lorenzo",
+              "telefono": "0342 - 4593487",
+              "direccion": ".Freyre 1598",
+              "coords": [-31.6550869, -60.7236478]
+          }, {
+              "nombre": "Farmacia Santa Fe",
+              "telefono": "0342 - 4592301 / 4599707 ",
+              "direccion": "Saavedra 1822",
+              "coords": [-31.6530076, -60.7201536]
+          }, {
+              "nombre": "Farmacia Santiago",
+              "telefono": "0342 - 4811560",
+              "direccion": "Necochea 4162",
+              "coords": [-31.6314065, -60.694694]
+          }, {
+              "nombre": "Farmacia Santiváñez",
+              "telefono": "0342 - 4892739",
+              "direccion": "Estanislao Zeballos 4453",
+              "coords": [-31.6002538, -60.7185285]
+          }, {
+              "nombre": "Farmacia Sartor",
+              "telefono": "0342 - 4555412",
+              "direccion": "Ituzaingó 2169",
+              "coords": [-31.6385934, -60.7012007]
+          }, {
+              "nombre": "Farmacia Scalzo",
+              "telefono": "0342 - 4553083",
+              "direccion": ".Vera 3206",
+              "coords": [-31.641936, -60.7135029]
+          }, {
+              "nombre": "Farmacia Sen",
+              "telefono": "0342 - 4605463",
+              "direccion": "Salvador del Carril 1672",
+              "coords": [-31.6201959, -60.6879136]
+          }, {
+              "nombre": "Farmacia Sileoni",
+              "telefono": "0342 - 4604940",
+              "direccion": "Angel Casanello 519",
+              "coords": [-31.614036, -60.6752207]
+          }, {
+              "nombre": "Farmacia Strada",
+              "telefono": "0342 - 4599798",
+              "direccion": ".Zavalla 1067",
+              "coords": [-31.6603235, -60.7266982]
+          }, {
+              "nombre": "Farmacia Stricker",
+              "telefono": "0342 - 4539095",
+              "direccion": "Chacabuco 2116",
+              "coords": [-31.6339539, -60.6969004]
+          }, {
+              "nombre": "Farmacia Suppo",
+              "telefono": "0342 - 4604141",
+              "direccion": ".A.del Valle 6897",
+              "coords": [-31.6050035, -60.6926122]
+          }, {
+              "nombre": "Farmacia Throendly",
+              "telefono": "0342 - 4895440",
+              "direccion": "Blas Parera 8235",
+              "coords": [-31.585432, -60.7282467]
+          }, {
+              "nombre": "Farmacia Tonini",
+              "telefono": "0342 - 4538391",
+              "direccion": "Avellaneda 3498",
+              "coords": [-31.6389142, -60.6902599]
+          }, {
+              "nombre": "Farmacia Trucco",
+              "telefono": "0342 - 4528523",
+              "direccion": "Las Heras 4501",
+              "coords": [-31.6275655, -60.6949456]
+          }, {
+              "nombre": "Farmacia Ugolini",
+              "telefono": "0342 - 4802555",
+              "direccion": ".Gorriti 4512",
+              "coords": [-31.5852557, -60.7171837]
+          }, {
+              "nombre": "Farmacia Valetti",
+              "telefono": "0342 - 4691813",
+              "direccion": ".Gral Paz 6440",
+              "coords": [-31.6120823, -60.6795858]
+          }, {
+              "nombre": "Farmacia Valverde",
+              "telefono": "0342 - 4535891",
+              "direccion": "1 º de Mayo 2215",
+              "coords": [-31.649169, -60.7137014]
+          }, {
+              "nombre": "Farmacia Verónica Cano",
+              "telefono": "0342 - 4558880",
+              "direccion": "Suipacha 2912",
+              "coords": [-31.6391835, -60.7086716]
+          }, {
+              "nombre": "Farmacia Vignolo",
+              "telefono": "0342 - 4538276",
+              "direccion": ".Gral.Paz 4698",
+              "coords": [-31.6266821, -60.6904113]
+          }, {
+              "nombre": "Farmacia Villarrubi",
+              "telefono": "0342 - 4889996",
+              "direccion": ".Vera Peñaloza 7512",
+              "coords": [-31.5945981, -60.7141212]
+          }, {
+              "nombre": "Farmacia Vinderola",
+              "telefono": "0342 - 4531674",
+              "direccion": ".Pellegrini 3060",
+              "coords": [-31.634101, -60.7114737]
+          }, {
+              "nombre": "Farmacia Wagner",
+              "telefono": "0342 - 4531215",
+              "direccion": ".F.Zuviría 4201",
+              "coords": [-31.628188, -60.7075147]
+          }, {
+              "nombre": "Farmacia Wagner Burgués",
+              "telefono": "0342 - 4561500",
+              "direccion": ".Rivadavia 3098",
+              "coords": [-31.640726, -60.7045967]
+          }, {
+              "nombre": "Farmacia Wuilloud",
+              "telefono": "0342 - 4597895",
+              "direccion": "San Jerónimo 1801",
+              "coords": [-31.6544699, -60.7125599]
+          }, {
+              "nombre": "Farmacia Zapata Morán",
+              "telefono": "0342 - 4891979",
+              "direccion": "Blas Parera 6751",
+              "coords": [-31.600063, -60.7241177]
+          }, {
+              "nombre": "Farmacia Zentner",
+              "telefono": "0342 - 4532805",
+              "direccion": "San Jerónimo 3101",
+              "coords": [-31.63965, -60.7083537]
+          }, {
+              "nombre": "Farmacia Zimmerman",
+              "telefono": "0342 - 4691616",
+              "direccion": "Padre Genesio 2971",
+              "coords": [-31.599013, -60.6999627]
+          }
+
+      ]
+  }
