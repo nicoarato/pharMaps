@@ -17,6 +17,7 @@ export class Tab2Page implements OnInit {
   LngLat: Mapboxgl.LngLat;
   farmacias: Farmacia[] = [];
   visibles = false;
+  markers: Mapboxgl.Marker[] = [];
   constructor( private farmaciaService: FarmaciasService ) {}
 
   ngOnInit() {
@@ -74,6 +75,9 @@ export class Tab2Page implements OnInit {
         farms.forEach(farmacia => {
           this.cargarFarmacia(farmacia.coords[1], farmacia.coords[0]);
         });
+      } else {
+        this.visibles = false;
+        this.quitarFarmacias();
       }
     }
 
@@ -85,7 +89,17 @@ export class Tab2Page implements OnInit {
       })
       .setLngLat([lng, lat])
       .addTo(this.mapa);
+      this.markers.push(marker);
     }
+
+    quitarFarmacias() {
+      this.markers.forEach(farmacia => {
+        farmacia.remove();
+      });
+      this.markers = [];
+      console.log('cantidad de elemntos en markers: ', this.markers.length);
+    }
+
 
 
 }
