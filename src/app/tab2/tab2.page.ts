@@ -18,16 +18,17 @@ export class Tab2Page implements OnInit {
   farmacias: Farmacia[] = [];
   visibles = false;
   markers: Mapboxgl.Marker[] = [];
+  estilo = 'primary';
   constructor( private farmaciaService: FarmaciasService ) {}
 
   ngOnInit() {
     // inicializa el mapa
     (Mapboxgl as any).accessToken = environment.mapboxKey;
     this.mapa = new Mapboxgl.Map({
-    container: 'mapamapbox', // container id
-    style: 'mapbox://styles/mapbox/light-v10',
-    center: [-60.707367, -31.6251114], // starting position lng, lat
-    zoom: 13 // starting zoom
+      container: 'mapamapbox', // container id
+      style: 'mapbox://styles/mapbox/light-v10',
+      center: [-60.707367, -31.6251114], // starting position lng, lat
+      zoom: 13 // starting zoom
     });
 
     this.mapa.addControl(new Mapboxgl.NavigationControl());
@@ -49,8 +50,8 @@ export class Tab2Page implements OnInit {
 
 
 
-  // carga el pedido por http
-  cargarFarmacias(event?) {
+    // carga el pedido por http
+    cargarFarmacias(event?) {
     this.farmaciaService.getFarmacias()
     .subscribe(res => {
       if (event) {
@@ -79,8 +80,8 @@ export class Tab2Page implements OnInit {
         this.visibles = false;
         this.quitarFarmacias();
       }
+      this.estilo = ( !this.visibles ? 'primary' : 'danger');
     }
-
 
     // carga una farmacia en el mapa
     cargarFarmacia(lng: number, lat: number) {
