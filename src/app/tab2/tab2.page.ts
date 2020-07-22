@@ -39,12 +39,20 @@ export class Tab2Page implements OnInit {
         trackUserLocation: true
     }));
 
+    // // Change the cursor to a pointer when the mouse is over the places layer.
+    // this.mapa.on('mouseenter', 'places', function() {
+    //     this.getCanvas().style.cursor = 'pointer';
+    //     });
+
+    // // Change it back to a pointer when it leaves.
+    // this.mapa.on('mouseleave', 'places', function() {
+    // this.getCanvas().style.cursor = '';
+    // });
+
 
     setTimeout(() => this.mapa.resize(), 0);
 
     this.cargarFarmacias();
-
-
 
   }
 
@@ -74,7 +82,7 @@ export class Tab2Page implements OnInit {
         this.visibles = true;
         const farms: Farmacia[] = this.farmacias;
         farms.forEach(farmacia => {
-          this.cargarFarmacia(farmacia.coords[1], farmacia.coords[0]);
+          this.cargarFarmacia(farmacia);
         });
       } else {
         this.visibles = false;
@@ -84,13 +92,21 @@ export class Tab2Page implements OnInit {
     }
 
     // carga una farmacia en el mapa
-    cargarFarmacia(lng: number, lat: number) {
+    cargarFarmacia(farmacia: Farmacia) {
+      const lng = farmacia.coords[1];
+      const lat = farmacia.coords[0];
       const marker = new Mapboxgl.Marker({
         color: '#42d77d',
       })
       .setLngLat([lng, lat])
+      .setPopup(new Mapboxgl.Popup({ closeOnClick: false })
+                .setLngLat([lng, lat])
+                .setHTML(`<p><strong>${farmacia.nombre}</strong>
+                          <br>${farmacia.telefono}</p>`))
       .addTo(this.mapa);
+      // carga array de marcadores.
       this.markers.push(marker);
+
     }
 
     quitarFarmacias() {
